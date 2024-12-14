@@ -1,0 +1,136 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #576f35;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mobile-menu-container {
+  position: relative;
+  padding-top: 296px;
+  padding-bottom: 52px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobile-menu-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.icon-close {
+  width: 32px;
+  height: 32px;
+  display: block;
+  stroke: #fbfbfb;
+}
+
+.mobile-menu-nav {
+  display: flex;
+  margin-bottom: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobile-menu-link {
+  border: 1px solid #fbfbfb;
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 118px;
+  height: 44px;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #fbfbfb;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu-link.current {
+  background: #fbfbfb;
+  color: #7a3145;
+}
+
+.mobile-menu-btn {
+  padding: 0;
+  border: none;
+  background: #7a3145;
+  border-radius: 30px;
+  padding: 16px;
+  min-width: 175px;
+  height: 52px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    background: rgba(20, 20, 20, 0.4);
+  }
+
+  .mobile-menu-container {
+    background-color: #576f35;
+    width: 351px;
+    position: absolute;
+    right: 0;
+    padding-top: 360px;
+    padding-bottom: 48px;
+  }
+  .mobile-menu-close {
+    top: 32px;
+    right: 32px;
+  }
+
+  .icon-close {
+    width: 40px;
+    height: 40px;
+  }
+
+  .mobile-menu-link {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .mobile-menu-btn {
+    min-width: 157px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .mobile-menu {
+    display: none;
+  }
+}
