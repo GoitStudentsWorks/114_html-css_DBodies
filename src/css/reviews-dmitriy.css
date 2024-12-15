@@ -1,7 +1,11 @@
+body {
+  background: #fbfbfb;
+}
 .reviews {
   padding: 80px 20px;
   width: 375px;
   height: 664px;
+  background: #fbfbfb;
 }
 @media only screen and (min-width: 768px) {
   .reviews {
@@ -10,9 +14,9 @@
     height: 692px;
   }
 }
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1280px) {
   .reviews {
-    padding: 100px 100px;
+    padding: 100px;
   }
 }
 .title {
@@ -85,13 +89,13 @@ span {
     width: 300px;
   }
 }
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1280px) {
   .reviews_item {
     min-width: 304px;
     max-height: 208px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1157px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .reviews_item:nth-child(3) {
     display: none;
   }
