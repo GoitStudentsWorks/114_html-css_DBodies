@@ -34,6 +34,7 @@
   padding: 0;
   border: none;
   background: transparent;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-close {
@@ -41,6 +42,11 @@
   height: 32px;
   display: block;
   stroke: #fbfbfb;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-close:active .icon-close {
+  transform: scale(0.8);
 }
 
 .mobile-menu-nav {
@@ -70,6 +76,13 @@
   color: #fbfbfb;
   justify-content: center;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-link:focus {
+  background-color: #fbfbfb;
+  color: #7a3145;
 }
 
 .mobile-menu-link.current {
@@ -95,6 +108,13 @@
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-btn:focus {
+  background-color: #fbfbfb;
+  color: #7a3145;
 }
 
 @media screen and (min-width: 768px) {
