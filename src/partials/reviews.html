@@ -8,7 +8,35 @@
     <div class="reviews-1">
       <ul class="reviews_list">
         <li class="reviews_item">
-          <img src="/img/reviews/john.png" alt="john" width="56" height="56" />
+          <picture>
+            <source
+              srcset="
+                /img/reviews/john-min.png         1x,
+                /img/reviews/john_desk@2x-min.png 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                /img/reviews/john-min.png        1x,
+                /img/reviews/john_tab@2x-min.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                /img/reviews/john-min.png        1x,
+                /img/reviews/john_mob@2x-min.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="/img/reviews/john-min.png"
+              alt="john"
+              width="56"
+              height="56"
+            />
+          </picture>
           <h3 class="name">JOHN WAX</h3>
           <p class="descr-item">
             These vegetables are my secret to delicious and healthy meals. The
@@ -17,12 +45,28 @@
           </p>
         </li>
         <li class="reviews_item">
-          <img
-            src="/img/reviews/victoria.png"
-            alt="victoria"
-            width="56"
-            height="56"
-          />
+          <picture>
+            <source
+              srcset="
+                /img/reviews/victoria-min.png         1x,
+                /img/reviews/victoria_desk@2x-min.png 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                /img/reviews/victoria-min.png        1x,
+                /img/reviews/victoria_tab@2x-min.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <img
+              src="/img/reviews/victoria-min.png"
+              alt="victoria"
+              width="56"
+              height="56"
+            />
+          </picture>
           <h3 class="name">VICTORIA ROMASHENCO</h3>
           <p class="descr-item">
             I love how fast and fresh the vegetables are delivered. Salads
@@ -31,7 +75,16 @@
           </p>
         </li>
         <li class="reviews_item">
-          <img src="/img/reviews/ihor.png" alt="ihor" width="56" height="56" />
+          <img
+            srcset="
+              /img/reviews/ihor-min.png          1x,
+              ./img/reviews/ihor_desk@2x-min.png 2x
+            "
+            src="/img/reviews/ihor-min.png"
+            alt="ihor"
+            width="56"
+            height="56"
+          />
           <h3 class="name">IHOR TRACHUK</h3>
           <p class="descr-item">
             Recently tried my fresh tomatoes and peppers - amazing! The
