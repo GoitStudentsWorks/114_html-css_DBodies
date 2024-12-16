@@ -5,7 +5,7 @@ ol {
 
 /* How it works Section */
 
-/* for Mobile */
+/* for mobile */
 .how-it-works-section {
   margin: 0;
   padding: 0;
@@ -165,7 +165,7 @@ ol {
   justify-content: center;
   color: #fbfbfb;
 }
-/* for Tablet */
+/* for tablet */
 
 @media only screen and (min-width: 768px) {
   .img-container {
@@ -198,7 +198,7 @@ ol {
     height: 76px;
   }
 }
-
+/* for desktop */
 @media only screen and (min-width: 1280px) {
   .title-container {
     max-width: 1280px;
