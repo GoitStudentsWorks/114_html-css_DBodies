@@ -101,24 +101,6 @@ ol {
 }
 
 .order-steps-item {
-  align-items: center;
-  border-radius: 15px;
-  padding: 12px 24px;
-  max-width: 335px;
-  height: 76px;
-  margin-bottom: 20px;
-  background: #fbfbfb;
-}
-.order-steps-item {
-  align-items: center;
-  border-radius: 15px;
-  padding: 12px 24px;
-  max-width: 335px;
-  height: 76px;
-  margin-bottom: 20px;
-  background-color: #fbfbfb;
-}
-.order-steps-item {
   display: flex;
   flex-direction: row;
   align-items: center;
