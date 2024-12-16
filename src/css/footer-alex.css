@@ -1,0 +1,179 @@
+.footer {
+  background-color: #7a3145;
+  padding: 40px 0;
+}
+
+.footer-logo-contacts-wrapper {
+  margin-bottom: 80px;
+}
+
+.footer-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.footer-logo-icon-img,
+.footer-logo-icon-text {
+  fill: #fff;
+}
+
+p.footer-logo-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.footer-menu-list {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-menu-link {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-contacts {
+  font-style: normal;
+}
+
+.footer-contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-contacts-item,
+.footer-contacts-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+  max-width: 179px;
+}
+
+.footer-policy-list {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.footer-policy,
+.footer-policy-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #d4bfc4;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-logo-contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+
+  .footer {
+    background-color: #7a3145;
+    padding: 32px 0;
+  }
+
+  .footer-logo-link {
+    gap: 9px;
+    margin-bottom: 24px;
+  }
+
+  .footer-logo-icon-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-logo-icon-text {
+    width: 187px;
+    height: 17px;
+  }
+
+  .footer-logo-text {
+    max-width: 265px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 0;
+  }
+
+  .footer-menu-list {
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  .footer-contacts-list {
+    gap: 24px;
+  }
+
+  .footer-contacts-item,
+  .footer-contacts-link {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .footer-policy {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-policy-list {
+    margin-bottom: 0;
+  }
+
+  .footer-policy,
+  .footer-policy-link {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    background-color: #7a3145;
+    padding: 52px 0;
+  }
+
+  .footer-logo-icon {
+    width: 216px;
+    height: 20px;
+  }
+
+  .footer-logo-contacts-wrapper {
+    margin-bottom: 124px;
+  }
+
+  .footer-menu-contacts-wrapper {
+    display: flex;
+    gap: 122px;
+  }
+
+  .footer-menu-list {
+    margin-bottom: 0;
+  }
+
+  .footer-contacts-item,
+  .footer-contacts-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 215px;
+  }
+
+  .footer-policy-list {
+    gap: 12px;
+  }
+}
