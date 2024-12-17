@@ -24,7 +24,7 @@ p.footer-logo-text {
   font-size: 14px;
   line-height: 1.4;
   color: #fff;
-  margin-bottom: 26px;
+  margin-bottom: 14px;
 }
 
 .footer-menu-list {
@@ -144,7 +144,7 @@ p.footer-logo-text {
 @media screen and (min-width: 1280px) {
   .footer {
     background-color: #7a3145;
-    padding: 52px  100px;
+    padding: 52px 0;
   }
 
   .footer-logo-icon {
