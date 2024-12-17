@@ -1,7 +1,6 @@
 .vegetables {
     background: #7a3145;
     padding: 80px 0;
-    width: 375px;
     margin: 0 auto;
 }
 
@@ -50,7 +49,7 @@
     padding: 32px 24px;
     width: 287px;
     height: 312px;
-    background: #fbfbfb;
+    background: #ffffff;
 }
 
 .vegetables-wrapper {
@@ -84,12 +83,7 @@
 
 @media screen and (min-width: 768px) {
     .vegetables {
-        padding: 100px 0;
-        width: 768px;
-    }
-
-    .container {
-        padding: 0 32px;
+        padding: 100px 32px;
     }
 
     .vegetables-heading {
@@ -121,16 +115,15 @@
     }
 
     .vegetables-item {
-        width: 280px;
-        height: 316px;
+        width: 340px;
+        height: 380px;
         padding: 32px 30px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .vegetables {
-        padding: 100px 0;
-        width: 1280px;
+        padding: 100px 100px;
     }
 
     .vegetables-list {
@@ -140,8 +133,8 @@
 
     .vegetables-item {
         padding: 32px;
-        width: 280px;
-        height: 316px;
+        width: 344px;
+        height: 380px;
     }
 
     .vegetables-wrapper {

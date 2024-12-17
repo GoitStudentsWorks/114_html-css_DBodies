@@ -24,7 +24,7 @@ ol {
 
 .cooking-woman-image {
   display: block;
-  border-radius: 30px;
+  border-radius: 45px;
   overflow: hidden;
   width: 100%;
   height: auto;
@@ -89,10 +89,6 @@ ol {
   list-style: none;
   counter-reset: my-counter;
   margin: 0 auto;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 .order-steps-list {
   padding: 0;
@@ -127,7 +123,7 @@ ol {
   line-height: 1.4;
   letter-spacing: -0.02em;
   color: #858585;
-  max-width: 208px;
+  max-width: 325px;
 }
 .steps-item-text-two {
   font-weight: 500;
@@ -135,7 +131,7 @@ ol {
   line-height: 1.4;
   letter-spacing: -0.02em;
   color: #858585;
-  max-width: 176px;
+  max-width: 323px;
   max-height: 40px;
 }
 .steps-item-text-three {
@@ -144,7 +140,7 @@ ol {
   line-height: 1.4;
   letter-spacing: -0.02em;
   color: #858585;
-  max-width: 211px;
+max-width: 280px;
   max-height: 60px;
 }
 
@@ -230,4 +226,13 @@ ol {
   .steps-text {
     margin-bottom: 104px;
   }
+  .steps-item-text-one {
+  max-width: 325px;
+}
+.steps-item-text-two {
+  max-width: 323px;
+}
+.steps-item-text-three {
+  max-width: 280px;
+}
 }
