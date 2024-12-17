@@ -1,21 +1,10 @@
 body {
   background: #fbfbfb;
 }
-.container-reviews {
-  padding: 80px 20px;
-}
-@media only screen and (min-width: 768px) {
-  .container-reviews {
-    padding: 100px 32px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .container-reviews {
-    padding: 100px;
-  }
-}
+.container 
+
 .reviews {
-  /* padding: 80px 20px; */
+  padding: 80px 20px;
   width: 375px;
   height: 664px;
   background: #fbfbfb;
@@ -23,15 +12,15 @@ body {
 @media only screen and (min-width: 768px) {
   .reviews {
     background: #fbfbfb;
-    /* padding: 100px 32px; */
+    padding: 100px 32px;
     height: 692px;
   }
 }
-/* @media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .reviews {
-    /* padding: 100px;
+    padding: 100px;
   }
-} */
+}
 .title {
   font-weight: 600;
   font-size: 48px;
@@ -59,7 +48,6 @@ span {
   color: #141414;
   width: 335px;
   margin-top: 20px;
-    margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
   .descr {
@@ -73,6 +61,7 @@ span {
 .reviews_list {
   display: flex;
   gap: 24px;
+  margin-top: 40px;
 }
 @media only screen and (min-width: 768px) {
   .reviews_list {
@@ -99,8 +88,7 @@ span {
 }
 @media only screen and (min-width: 768px) {
   .reviews_item {
-    width: 340px;
-    max-height: 248px;
+    width: 300px;
   }
 }
 @media only screen and (min-width: 1280px) {
