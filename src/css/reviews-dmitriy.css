@@ -2,10 +2,7 @@ body {
   background: #fbfbfb;
 }
 
-.reviews {
-  height: 664px;
-  background: #fbfbfb;
-}
+
 .container {}
 
 @media only screen and (min-width: 768px) {
