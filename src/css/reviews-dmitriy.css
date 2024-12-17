@@ -77,7 +77,7 @@ span {
   border: 1px solid #d4bfc4;
   border-radius: 24px;
   padding: 20px 16px;
-  width: 303px;
+  min-width: 335px;
   max-height: 228px;
   background: #fbfbfb;
 }
@@ -88,14 +88,13 @@ span {
 }
 @media only screen and (min-width: 768px) {
   .reviews_item {
-    width: 340px;
+    min-width: 340px;
     max-height: 248px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .reviews_item {
     min-width: 344px;
-    max-height: 248px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
