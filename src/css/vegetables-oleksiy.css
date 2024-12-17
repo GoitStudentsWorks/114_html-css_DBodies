@@ -4,6 +4,7 @@
     margin: 0 auto;
 }
 
+
 .vegetables-title {
     display: flex;
     align-items: flex-start;
@@ -125,7 +126,9 @@
     .vegetables {
         padding: 100px 100px;
     }
-
+.vetetabless {
+    padding: 0 100px;
+}
     .vegetables-list {
         gap: 24px;
         width: 1080px;
