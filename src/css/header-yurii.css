@@ -1,39 +1,131 @@
-.header{}
+.header {
+}
 
 .header-container {
-    display: flex;
-    justify-content: center;
+  position: relative;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media only screen and (min-width: 768px) {
+  .header-wrapper {
+    padding: 32px;
+  }
+}
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-logo-link {
+  display: flex;
 }
 .header-svg-logo {
+  width: 168px;
+  height: 16px;
 }
-.header-svg-text {
+@media only screen and (min-width: 768px) {
+  .header-svg-logo {
+    width: 216px;
+    height: 20px;
+  }
 }
+
 .header-list {
-    display: none;
-    display: flex;
-    gap: 8px;
+  display: none;
 }
 .header-item {
-    border: 1px solid #fbfbfb;
-    border-radius: 12px;
-    padding: 12px;
-    width: 118px;
-    height: 44px;
-
-   
-font-weight: 500;
-
-line-height: 1.25;
-text-align: center;
-color: #fbfbfb;
+  border: 1px solid #fbfbfb;
+  border-radius: 12px;
+  padding: 12px;
+  width: 118px;
+  height: 44px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  color: #fbfbfb;
 }
 
-.header-link{
 
+.header-link {
 }
 .header-btn {
-    margin-left: auto;
-    
+  display: none;
+}
+.open-menu {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  min-width: 32px;
+  min-height: 32px;
 }
 .header-svg-menu {
+  stroke: #fbfbfb;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .header-svg-menu {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+  }
+
+  .header-btn {
+    display: inline-flex;
+    margin-left: auto;
+    border-radius: 30px;
+    padding: 16px 30px;
+    width: 157px;
+    height: 52px;
+    background: #7a3145;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+  }
+
+  .open-menu {
+    display: none;
+  }
+
+  .header-list {
+    display: flex;
+    margin-left: 366px;
+    gap: 10px;
+    margin-right: 20px;
+  }
+
+  .header-item {
+    border: 1px solid #fbfbfb;
+border-radius: 12px;
+padding: 10px;
+width: 118px;
+height: 44px;
+  }
 }
