@@ -55,4 +55,7 @@
     .adver-desc-span {
         padding: 4px 7px 5px 16px;
     }
+    .adver-container {
+        justify-content: flex-start;
+    }
 }
