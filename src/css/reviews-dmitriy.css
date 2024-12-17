@@ -1,37 +1,26 @@
 body {
   background: #fbfbfb;
 }
-.container-reviews {
-  padding: 80px 20px;
-}
-@media only screen and (min-width: 768px) {
-  .container-reviews {
-    padding: 100px 32px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .container-reviews {
-    padding: 100px;
-  }
-}
 .reviews {
-  /* padding: 80px 20px; */
-  width: 375px;
+  padding: 80px 20px;
+  max-width: 375px;
   height: 664px;
   background: #fbfbfb;
 }
 @media only screen and (min-width: 768px) {
   .reviews {
     background: #fbfbfb;
-    /* padding: 100px 32px; */
+    padding: 100px 32px;
+    max-width: 768px;
     height: 692px;
   }
 }
-/* @media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .reviews {
-    /* padding: 100px;
+    padding: 100px;
+    max-width: 1280px;
   }
-} */
+}
 .title {
   font-weight: 600;
   font-size: 48px;
