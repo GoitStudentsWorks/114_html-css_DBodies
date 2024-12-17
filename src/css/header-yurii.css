@@ -2,16 +2,22 @@
 }
 
 .header-container {
+  position: relative;
+}
+
+.header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #576f35;
-  border: 1px solid #fbfbfb;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 @media only screen and (min-width: 768px) {
-  .header-container {
+  .header-wrapper {
     padding: 32px;
   }
 }
