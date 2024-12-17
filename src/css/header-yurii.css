@@ -10,11 +10,28 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+@media only screen and (min-width: 768px) {
+  .header-container {
+    padding: 32px;
+  }
+}
 .header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-logo-link {
+  display: flex;
 }
 .header-svg-logo {
   width: 168px;
   height: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .header-svg-logo {
+    width: 216px;
+    height: 20px;
+  }
 }
 
 .header-list {
@@ -37,10 +54,22 @@
 .header-link {
 }
 .header-btn {
+  display: none;
+}
+.header-mob-btn {
   border: none;
   background-color: transparent;
+  margin: 0;
   padding: 0;
+  min-width: 32px;
+  min-height: 32px;
 }
 .header-svg-menu {
-  fill: #fbfbfb;
+  stroke: #fbfbfb;
+}
+@media only screen and (min-width: 768px) {
+  .header-svg-menu {
+    width: 40px;
+    height: 40px;
+  }
 }
