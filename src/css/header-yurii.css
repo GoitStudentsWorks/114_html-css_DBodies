@@ -18,9 +18,23 @@
 }
 @media only screen and (min-width: 768px) {
   .header-wrapper {
-    padding: 32px 0;
+    padding: 32px ;
   }
+
 }
+
+@media only screen and (min-width: 1280px) {
+  .header-wrapper {
+    justify-content: center;
+  }
+
+  
+
+}
+
+
+
+
 .header-nav {
   display: flex;
   justify-content: center;
@@ -37,6 +51,14 @@
   .header-svg-logo {
     width: 216px;
     height: 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header-svg-logo {
+    width: 216px;
+    height: 20px;
+    margin-right: 366px;
   }
 }
 
@@ -73,7 +95,7 @@
   stroke: #fbfbfb;
 }
 @media only screen and (min-width: 768px) {
-  .container {
+  .header-container {
     width: 768px;
   }
   .header-svg-menu {
@@ -82,9 +104,9 @@
   }
 }
 
-@media only screen and (min-width: 1080px) {
-  .container {
-    width: 1080px;
+@media only screen and (min-width: 1280px) {
+  .header-container {
+    
   }
 
   .header-btn {
@@ -116,8 +138,7 @@
 
   .header-list {
     display: flex;
-    margin-left: 366px;
-    gap: 10px;
+    gap: 8px;
     margin-right: 20px;
   }
 
