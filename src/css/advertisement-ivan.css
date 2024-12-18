@@ -33,8 +33,10 @@
   @media only screen and (min-width: 1280px) {
     .adver-desc {
         font-size: 76px;
-        max-width: 1075px;
+        max-width: 1080px;
+        letter-spacing: -0.01em;
     }
+    
   }
   
 
@@ -60,5 +62,8 @@
     }
     .adver-container {
         justify-content: flex-start;
+    }
+        .advertisement {
+        padding: 100px 0 100px 100px;
     }
 }

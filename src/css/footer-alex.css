@@ -25,6 +25,7 @@ p.footer-logo-text {
   line-height: 1.4;
   color: #fff;
   margin-bottom: 40px;
+  max-width: 335px;
 }
 
 .footer-menu-list {
@@ -103,7 +104,7 @@ p.footer-logo-text {
     height: 17px;
   }
 
-  .footer-logo-text {
+  p.footer-logo-text {
     max-width: 265px;
     font-size: 16px;
     line-height: 1.25;
