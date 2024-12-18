@@ -7,18 +7,28 @@ body {
   height: 664px;
   background: #fbfbfb;
 }
+.rare {
+  max-width: 1280px;
+  padding: 40px 20px;
+}
 @media only screen and (min-width: 768px) {
   .reviews {
     background: #fbfbfb;
-    padding: 100px 32px;
     max-width: 768px;
     height: 692px;
+  }
+  .rare {
+    max-width: 1280px;
+    padding: 32px 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .reviews {
-    padding: 100px;
     max-width: 1280px;
+  }
+  .rare {
+    max-width: 1280px;
+    padding: 100px 100px;
   }
 }
 .title {
