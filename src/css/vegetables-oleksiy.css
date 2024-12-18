@@ -126,11 +126,8 @@
     /* .vegetables {
         padding: 100px 100px;
     } */
-         .vegetabless {
-        padding: 0;
-    }
-    .container {
-        padding: 0;
+         .container.vegetabless {
+        padding: 0 100px;
     }
     .vegetables-list {
         gap: 24px;

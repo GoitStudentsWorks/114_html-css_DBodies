@@ -60,8 +60,10 @@
     .adver-desc-span {
         padding: 4px 7px 5px 16px;
     }
-    .adver-container {
+
+    .container.adver-container {
         justify-content: flex-start;
+        padding-left: 100px;
     }
 
 }
