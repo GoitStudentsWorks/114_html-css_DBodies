@@ -123,9 +123,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .vegetables {
+    /* .vegetables {
         padding: 100px 100px;
-    }
+    } */
 .vetetabless {
     padding: 0 100px;
 }
