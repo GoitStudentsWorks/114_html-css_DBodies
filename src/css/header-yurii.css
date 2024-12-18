@@ -54,11 +54,14 @@
   color: #fbfbfb;
 }
 
- .header-link {
- }
+.header-link {
+
+}
+
 .header-btn {
   display: none;
 }
+
 .open-menu {
   border: none;
   background-color: transparent;
