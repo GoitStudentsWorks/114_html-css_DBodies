@@ -9,6 +9,16 @@ ol {
 .how-it-works-section {
   margin: 0;
   padding: 0;
+  background: linear-gradient(
+    to bottom,
+    #7a3145 0%,
+    #7a3145 43%,
+    #576f35 43%,
+    #576f35 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 .title-container {
   padding: 0;
@@ -19,7 +29,6 @@ ol {
   max-width: 375px;
   margin: 0 auto;
   padding: 40px 20px;
-  background-color: #7a3145;
 }
 
 .cooking-woman-image {
@@ -31,12 +40,12 @@ ol {
   max-width: 335px;
 }
 .text-container {
-  background-color: #576f35;
   max-width: 100%;
   padding: 80px 20px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .text-title {
@@ -167,6 +176,17 @@ max-width: 210px;
 /* for tablet */
 
 @media only screen and (min-width: 768px) {
+  .how-it-works-section {
+    background: linear-gradient(
+      to bottom,
+      #7a3145 0%,
+      #7a3145 60%,
+      #576f35 50%,
+      #576f35 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .img-container {
     max-width: 768px;
     padding: 100px 64px;
@@ -197,8 +217,20 @@ max-width: 210px;
     height: 76px;
   }
 }
+
 /* for desktop */
 @media only screen and (min-width: 1280px) {
+  .how-it-works-section {
+    background: linear-gradient(
+      to right,
+      #7a3145 0%,
+      #7a3145 43%,
+      #576f35 43%,
+      #576f35 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .title-container {
     max-width: 1280px;
     display: flex;
@@ -217,6 +249,7 @@ max-width: 210px;
     margin: 0;
     max-width: 640px;
     padding: 100px 100px;
+    background-color: #7a3145;
   }
   .cooking-woman-image {
     max-width: 440px;
@@ -225,6 +258,7 @@ max-width: 210px;
   .text-container {
     max-width: 640px;
     padding: 100px 100px;
+    background-color: #576f35;
   }
   .steps-text {
     margin-bottom: 104px;
@@ -239,3 +273,4 @@ max-width: 210px;
   max-width: 280px;
 }
 }
+/*  end How it works Section */
