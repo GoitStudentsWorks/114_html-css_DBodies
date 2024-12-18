@@ -1,5 +1,3 @@
-.header {
-}
 
 .header-container {
   position: relative;
@@ -18,22 +16,17 @@
 }
 @media only screen and (min-width: 768px) {
   .header-wrapper {
-    padding: 32px ;
+    padding: 32px;
   }
-
 }
 
 @media only screen and (min-width: 1280px) {
   .header-wrapper {
     justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
   }
-
-  
-
 }
-
-
-
 
 .header-nav {
   display: flex;
@@ -58,7 +51,7 @@
   .header-svg-logo {
     width: 216px;
     height: 20px;
-    margin-right: 366px;
+    
   }
 }
 
@@ -69,8 +62,7 @@
   border: 1px solid #fbfbfb;
   border-radius: 12px;
   padding: 12px;
-  width: 118px;
-  height: 44px;
+  
   font-weight: 500;
   line-height: 1.25;
   text-align: center;
@@ -78,8 +70,6 @@
 }
 
 
-.header-link {
-}
 .header-btn {
   display: none;
 }
@@ -96,7 +86,7 @@
 }
 @media only screen and (min-width: 768px) {
   .header-container {
-    width: 768px;
+    width: 100%;
   }
   .header-svg-menu {
     width: 40px;
@@ -106,22 +96,23 @@
 
 @media only screen and (min-width: 1280px) {
   .header-container {
-    
+    width: 100%;
   }
 
+  
+
   .header-btn {
-    display: inline-flex;
+    display: flex;
     margin-left: auto;
     border-radius: 30px;
-    padding: 16px 30px;
-    width: 157px;
+    padding: 16px 32px;
+    min-width: 157px;
     height: 52px;
     background: #7a3145;
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 10px;
+    flex-shrink: 0;
 
     font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
@@ -140,13 +131,13 @@
     display: flex;
     gap: 8px;
     margin-right: 20px;
+    margin-left: 366px;
   }
 
   .header-item {
     border: 1px solid #fbfbfb;
-border-radius: 12px;
-padding: 10px;
-width: 118px;
-height: 44px;
+    border-radius: 12px;
+    padding: 10px;
+    
   }
 }
