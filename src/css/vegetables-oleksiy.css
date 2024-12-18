@@ -124,6 +124,9 @@
   .vegetables {
     padding: 0;
   }
+.vegetabless {
+  padding: 100px;
+}
   .vegetables-list {
     gap: 24px;
     width: 1080px;

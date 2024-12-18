@@ -102,7 +102,20 @@ letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #fbfbfb;
   cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+  .order-btn:focus,.order-btn:hover {
+  background-color: #d4bfc4;
+  color: #7a3145;
+}
+.order-btn:active {
+      background-color: #fbfbfb;
+  color: #7a3145;
+  border: solid 2px #7a3145;
+}
+
 .social {
   border-radius: 30px;
   padding: 40px 20px;
@@ -111,7 +124,16 @@ letter-spacing: -0.015em;
 }
 .social-item {
   color: #fbfbfb;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+  .social-link:focus,.social-link:hover {
+  font-size: 20px;
+}
+.social-link:active {
+ font-size: 18px;
+}
+
 .social-picture {
   border-radius: 15px;
   margin-bottom: 20px;
@@ -234,4 +256,8 @@ letter-spacing: -0.015em;
   .social-picture {
     margin-bottom: 80px;
   }
+  .section {
+    padding: 100px 100px 0 100px;
+  }
+
 }

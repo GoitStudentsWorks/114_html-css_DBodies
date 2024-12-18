@@ -33,6 +33,7 @@ p.footer-logo-text {
   display: flex;
   flex-direction: column;
   gap: 14px;
+    transition: opacity 0.45s ease;
 }
 
 .footer-menu-link {
@@ -42,6 +43,10 @@ p.footer-logo-text {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fff;
+
+}
+  .footer-menu-list:hover > :not(:hover) {
+opacity: 0.5;
 }
 
 .footer-contacts {

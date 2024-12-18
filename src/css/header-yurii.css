@@ -60,13 +60,22 @@
   border: 1px solid #fbfbfb;
   border-radius: 12px;
   padding: 12px;
-
   font-weight: 500;
   line-height: 1.25;
   text-align: center;
   color: #fbfbfb;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+  .header-item:focus,.header-item:hover {
+  background-color: #d4bfc4;;
+  color: #7a3145;
+}
+.header-item:active {
+      background-color: #fbfbfb;
+  color: #7a3145;
+}
 .header-btn {
   display: none;
 }
@@ -117,7 +126,17 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .header-btn:focus,.header-btn:hover {
+  background-color: #d4bfc4;;
+  color: #7a3145;
+}
+.header-btn:active {
+    background-color: #fbfbfb;
+  color: #7a3145;
+}
 
   .open-menu {
     display: none;
