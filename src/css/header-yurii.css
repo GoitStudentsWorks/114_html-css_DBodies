@@ -94,6 +94,7 @@
 @media only screen and (min-width: 1280px) {
   .header-container {
     width: 100%;
+    padding: 0;
   }
 
   .header-btn {
