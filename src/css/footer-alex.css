@@ -25,6 +25,7 @@ p.footer-logo-text {
   line-height: 1.4;
   color: #fff;
   margin-bottom: 40px;
+  max-width: 300px;
 }
 
 .footer-menu-list {
@@ -83,8 +84,7 @@ p.footer-logo-text {
     margin-bottom: 100px;
   }
 
-  .footer {
-    background-color: #7a3145;
+  .footer {    
     padding: 32px 32px;
   }
 
@@ -103,7 +103,7 @@ p.footer-logo-text {
     height: 17px;
   }
 
-  .footer-logo-text {
+  p.footer-logo-text {
     max-width: 265px;
     font-size: 16px;
     line-height: 1.25;
@@ -123,6 +123,7 @@ p.footer-logo-text {
   .footer-contacts-link {
     font-size: 16px;
     line-height: 1.25;
+    max-width: 215px;
   }
 
   .footer-policy {
@@ -142,8 +143,7 @@ p.footer-logo-text {
 }
 
 @media screen and (min-width: 1280px) {
-  .footer {
-    background-color: #7a3145;
+  .footer {    
     padding: 52px 0;
   }
 
@@ -163,14 +163,6 @@ p.footer-logo-text {
 
   .footer-menu-list {
     margin-bottom: 0;
-  }
-
-  .footer-contacts-item,
-  .footer-contacts-link {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
-    max-width: 215px;
   }
 
   .footer-policy-list {
