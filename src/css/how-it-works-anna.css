@@ -231,10 +231,7 @@ max-width: 210px;
     background-size: cover;
     background-repeat: no-repeat;
   }
-  .img-container {
-    width: 60%;
-  }
-
+ 
   .text-title {
     margin-bottom: 48px;
   }
@@ -255,8 +252,9 @@ max-width: 210px;
   .img-container {
     margin: 0;
     max-width: 640px;
-    padding: 100px 100px 0 0;
+    padding: 100px 100px 100px 0;
     background-color: #7a3145;
+     width: 63%;
   }
   .cooking-woman-image {
     max-width: 440px;
