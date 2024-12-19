@@ -17,29 +17,28 @@
           below and we will contact you !
         </p>
         <form class="order-send">
-          <label class="order-label" for="user-name"
+          <label class="order-label"
             ><input
+             required
               class="order-input"
               type="text"
               name="user-name"
-              id="user-name"
               placeholder="Full Name"
-          /></label>
-          <label class="order-label" for="mail"
+          /><span class="visually-hidden">user-name</span></label>
+          <label class="order-label" 
             ><input
               class="order-input input-valid"
               type="email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
               name="mail"
-              id="mail"
+            
               required
               placeholder="Email"
-          /></label>
-          <label class="order-label" for="user-comment">
+          /><span class="visually-hidden">user-Email</span></label>
+          <label class="order-label"><span class="visually-hidden">user-comment</span>
             <textarea
               class="order-massage"
               name="user-comment"
-              id="user-comment"
               placeholder="Comment"
             ></textarea>
           </label>
@@ -87,7 +86,7 @@
               >instagram
             </a>
           </li>
-          <li class="social-item">/</li>
+          <!-- <li class="social-item"></li> -->
           <li class="social-item">
             <a
               href="https://www.facebook.com/goITclub/ "
@@ -96,7 +95,7 @@
               >facebook
             </a>
           </li>
-          <li class="social-item">/</li>
+          <!-- <li class="social-item">/</li> -->
           <li class="social-item">
             <a
               href="https://www.youtube.com/c/GoIT "
