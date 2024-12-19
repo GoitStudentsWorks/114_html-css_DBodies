@@ -61,6 +61,7 @@
 .mobile-menu-nav {
   display: flex;
   margin-bottom: auto;
+  margin-top: auto;
   justify-content: center;
   align-items: center;
   padding-bottom: 24px;
